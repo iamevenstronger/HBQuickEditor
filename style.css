@@ -1,0 +1,45 @@
+#editor { 
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.editor-div {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.flex-container {
+      display: flex;
+      flex-wrap: nowrap;
+}
+#preview {
+    width: 100%;
+    height: 100%;
+}
+.w50per {
+    width: 50%;
+}
+.nav {
+    background: #053c75;
+    color: #ececec;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    left: 0px;
+    text-align: center;
+    padding: 5px;
+    z-index: 5;
+}
+
+.tab {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid;
+}
+.link {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
