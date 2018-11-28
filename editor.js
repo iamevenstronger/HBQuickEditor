@@ -28,6 +28,9 @@ html_editor.getSession().on('change', function () {
 });
 var queryparamname = getQueryStringValue("name") ;
 document.getElementById("tabname").innerText = queryparamname ;
+if(queryparamname=="") {
+    location.href = location.hostname + "/index.html" ;
+}
 if(typeof localStorage[queryparamname] != "undefined") {
     setHTMLContent(localStorage[queryparamname]);
     generatePreviewContent();
