@@ -1,7 +1,7 @@
 var keys = Object.keys(localStorage);  
 if(keys.length==0) {
         var div = document.createElement("div");
-        var divText = document.createTextNode("No item. To create one use above url <url>/editor.html?name=<yourfilename>");
+        var divText = document.createTextNode("No item. To create one PASTE the url '/editor.html?name=<yourfilename>' and replace your filename");
         div.appendChild(divText);
         document.getElementById("items").appendChild(div);
 }
