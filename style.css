@@ -13,6 +13,7 @@
 .flex-container {
       display: flex;
       flex-wrap: nowrap;
+      height: 100%;
 }
 #preview {
     width: 100%;
