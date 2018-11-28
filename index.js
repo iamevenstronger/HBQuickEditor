@@ -19,5 +19,5 @@ for (var key in keys) {
 }
 
 var openTab = function(key) {
-    window.open(location.hostname+"/editor.html?name="+key,"_blank");
+    window.open("editor.html?name="+key,"_blank");
 }
