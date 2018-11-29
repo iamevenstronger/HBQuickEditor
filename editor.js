@@ -8,7 +8,7 @@ html_editor.setOptions({
     enableSnippets: true,
     enableLiveAutocompletion: true
 });
-var getHTMLContent = function () { return html_editor.getValue().replace(/[\t\n\r]/gm, ''); }
+var getHTMLContent = function () { return html_editor.getValue(); }
 var setHTMLContent = function (content) { html_editor.setValue(content); }
 var setTheme = function (id, sid) { var theme = document.getElementById(sid).value; ace.edit(id).setTheme("ace/theme/" + theme); }
 var beautifyHTML = function () { beautify.beautify(html_editor.session); }
